@@ -187,10 +187,10 @@ export function LoginForm() {
   );
 }
 
-
 <button
+  type="button"
   onClick={async () => {
-    await fetch("https://hook.eu1.make.com/jipd6lnnj7n1lmib9ot9w2lj4kuzolho", {
+    await fetch("https://hook.eu1.make.com/j1pd6lnn7n11mib9ot9w21j4kuzo1ho", {
       method: "POST"
     });
 
@@ -206,3 +206,4 @@ export function LoginForm() {
 >
   Test Automation
 </button>
+
