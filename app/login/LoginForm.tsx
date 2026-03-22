@@ -186,3 +186,23 @@ export function LoginForm() {
     </div>
   );
 }
+
+
+<button
+  onClick={async () => {
+    await fetch("https://hook.eu1.make.com/jipd6lnnj7n1lmib9ot9w2lj4kuzolho", {
+      method: "POST"
+    });
+
+    alert("Sent 🚀");
+  }}
+  style={{
+    marginTop: "20px",
+    padding: "10px 20px",
+    background: "white",
+    color: "black",
+    borderRadius: "8px"
+  }}
+>
+  Test Automation
+</button>
